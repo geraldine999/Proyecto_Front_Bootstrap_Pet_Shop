@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Contacto-Firulais Pet Shop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://images.vexels.com/media/users/3/156187/isolated/preview/94cbec513c71ef365fc8080dbf167929-icono-de-perro-de-estilo-de-l-iacute-nea-by-vexels.png">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+   
+		<!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+</head>
+
+<body>
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+	
+        <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+        navbar-light = texto negro de la letra
+        bg-white = fondo de color blanco
+        -->
+    
+            <div class="container d-flex justify-content-between align-items-center">
+            
+                <a class="navbar-brand h1" href="index.html">
+                <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->	
+                <i class="fas fa-bone" id="icono-hueso"></i>
+    
+              <span class="text-primary h4 bolder" >Firulais Pet Shop</span></a>
+                
+                <!--	boton de hamburguesa --> 
+                    <button class="navbar-toggler border-0" 
+                    type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbar-toggler-success" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+            <!------------------------------------------- Opciones del Menu		-->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+            id="navbar-toggler-success">
+            
+            <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+            por un punto de interrupción principal.
+            flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+            d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+            directos en elementos flexibles
+            -->
+                            <div class="flex-fill mx-xl-5 mb-2">
+                    <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                            <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+                           (incluida la compatibilidad con menús desplegables).-->
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Home</a>
+                            <!-- px = padding y mx es el margin 
+                            rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3" href="products.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3" href="services.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    <!---------------------------------------------------------Fin de las opciones del menu
+    ------------------------------------------------------------ Inicio de los iconos del menu-->
+    <div class="navbar align-self-center d-flex">
+        <a class="nav-link" href="#"><i class="fas fa-award bx-tada-hover text-primary" id="iconos-navbar"></i></a>
+        
+        
+    </div>
+                </div>
+            </div>
+        </nav>
+    <!----------------------------------------------------------- Fin de los iconos del menu
+    
+        <!-- Close Header -->
+     <!----------------------------------------------------------- Fin del Header-->
+
+
+    <!-- Start Banner Hero -->
+    <section class="bg-light">
+        <div class="container py-4">
+            <div class="row align-items-center justify-content-between">
+                <div class="contact-header col-lg-5">
+                    <h1 class="h2 pb-3 text-primary fuente-caracteristica ">Contáctanos</h1>
+                    <h3 class="h4 regular-400 fuente-secundaria pb-2">Tenés consultas, quejas o sugerencias?</h3>
+                    <p class="light-300 texto-azul fuente-secundaria bolder  ">
+                        Por favor completa el formulario y nos pondremos en contacto lo más pronto posible
+                    </p>
+                </div>
+                <div class="contact-img col-lg-5 align-items-end col-md-4">
+                    <img src="https://media.istockphoto.com/photos/dog-carrying-letters-picture-id173101231?k=6&m=173101231&s=612x612&w=0&h=1SaZp90ZBDvOb-oU05C9rHcFIEVsJz5NemxSD8u_eSg=" class="imagen-circular" alt="un perro con cartas en la boca">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Contact -->
+    <section class="container py-5">
+
+
+        <div class="row pb-4">
+            <div class="col-lg-4">
+
+                <div class="contact row mb-4">
+                    <div class="contact-icon col-lg-3 col-3">
+                        <div class="py-3 mb-2 text-center border rounded text-secondary">
+                            <i class="fas fa-comment icono-servicios"></i>
+                        </div>
+                    </div>
+                    <ul class="contact-info list-unstyled col-lg-9 col-9  light-300">
+                        <li class="h5 pt-4">Consultas</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="contact row mb-4">
+                    <div class="contact-icon col-lg-3 col-3">
+                        <div class="border py-3 mb-2 text-center border rounded text-secondary">
+                            <i class="fas fa-bullhorn icono-servicios"></i>
+                        </div>
+                    </div>
+                    <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
+                        <li class="h5 pt-4">Reclamos</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="contact row mb-4">
+                    <div class="contact-icon col-lg-3 col-3">
+                        <div class="border py-3 mb-2 text-center border rounded text-secondary">
+                            <i class="fas fa-lightbulb icono-servicios"></i>
+                        </div>
+                    </div>
+                    <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
+                        <li class="h5 pt-4">Sugerencias</li>
+                       
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <!-- Start Contact Form -->
+            <div class="col-lg-8 ">
+                <form class="contact-form row" method="post" action="#" role="form">
+
+                    <div class="col-lg-6 mb-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingname" name="inputname" placeholder="Name">
+                            <label for="floatingname light-300">Nombre</label>
+                        </div>
+                    </div><!-- End Input Name -->
+
+                    <div class="col-lg-6 mb-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingemail" name="inputemail" placeholder="Email">
+                            <label for="floatingemail light-300">Email</label>
+                        </div>
+                    </div><!-- End Input Email -->
+
+                    <div class="col-lg-12 mb-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingphone" name="inputphone" placeholder="Phone">
+                            <label for="floatingphone light-300">Teléfono</label>
+                        </div>
+                    </div><!-- End Input Phone -->
+
+    
+
+                    <div class="col-12">
+                        <div class="form-floating mb-4">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingsubject" name="inputsubject" placeholder="Subject">
+                            <label for="floatingsubject light-300">Asunto</label>
+                        </div>
+                    </div><!-- End Input Subject -->
+
+                    <div class="col-12">
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control light-300" rows="8" placeholder="Message" id="floatingtextarea"></textarea>
+                            <label for="floatingtextarea light-300 ">Mensaje</label>
+                        </div>
+                    </div><!-- End Textarea Message -->
+
+                    <div class="col-md-12 col-12 m-auto text-end">
+                        <button type="submit" class="btn btn-secondary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300">Enviar Mensaje</button>
+                    </div>
+
+                </form>
+            </div>
+            <!-- End Contact Form -->
+
+
+        </div>
+    </section>
+    <!-- End Contact -->
+
+
+     <!-- Start Footer -->
+     <footer class="bg-secondary pt-4">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <i class="fas fa-bone" style="color: white;"></i>
+                        <span class="text-light h5">Firulais Pet Shop</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        Tenés dudas o consultas? Contactanos!
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-facebook-square bx-md'></i>
+                            </a>
+                        </li>
+                    
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                                <i class='bx bxl-whatsapp-square bx-md'></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Conocenos</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" 
+								href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="about.html">Sobre Nosotros</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="work.html">Productos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" 
+								href="pricing.html">Servicios</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="contact.html">Formulario de Contacto</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Qué Hacemos?</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Servicio de Adopción</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Veterinaria</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Guardería</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Paseos</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Juguetes y Accesorios</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Alimento Balanceado</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Atendemos en:</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="tel:010-020-0340">011 4567 8904</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+							href="mailto:info@company.com">firulais@pet-shop.com</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx bxs-map'></i><a class="text-decoration-none text-light py-1"
+							href="https://www.google.com/maps/place/Balvanera,+CABA/data=!4m2!3m1!1s0x95bccaefda95a351:0x88dbf09429e0b121?sa=X&ved=2ahUKEwjjt_T0hvLwAhXJGLkGHfGzACsQ8gEwAHoECAMQAQ">Balvanera, Buenos Aires</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 bg-primary py-3" >
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300 footer-texto-negro">
+                            © Copyright 2021 Firulais Pet Shop. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300 footer-texto-negro">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-light" 
+							href="https://cursophp.com.ar/" target="_blank"><strong class="footer-texto-negro"> Geraldine Adelmann</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
